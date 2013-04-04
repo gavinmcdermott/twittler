@@ -1,0 +1,148 @@
+body {
+	background: #e3e3e1;
+	font-family: 'Lato', sans-serif;	
+	color: #2b2b2a;  
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.sidebar {
+	width: 189px;
+	margin-top: 232px;
+	margin-right: 11px;
+	height: 126px;
+	background: #cecece; 
+	float: left;
+}
+
+div.inputs {
+	padding: 11px;
+	margin: 0 auto;
+	width: 167px;
+}
+
+input.name {
+	width: 164px;
+	height: 2em;
+	font-size: 1em;
+}
+
+div.submit-tweet {
+/*	padding: 11px;*/
+	/*margin: 0 auto;*/
+
+	
+}
+
+input.tweet-input {
+	border: none;
+	height: 63px;
+	width: 100%;
+	margin-top: 3px;
+	font-size: 1em;
+}
+
+.main-container {
+	width: 400px;
+	position: relative;
+	float: left;
+}
+
+#user-info {
+	width: 100%;
+	margin: 0 auto;
+	height: 121px;
+	position: relative;
+	text-align: center;
+	padding: 11px;
+}
+
+#user-info h1 {
+	text-align: center;
+	margin-bottom: 11px;
+	font-size: 2em;
+}
+
+#user-info h2 {
+	margin-top: 11px;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#tweetForm {
+	width: 100%;
+}
+
+textarea {
+	border: 2px solid white;
+}
+
+#main {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#pending {
+	padding: 11px 11px;
+	margin: 22px auto;
+	text-align: center;
+	width: 100%;	
+	font-size: 1.2em;
+	background: #b3b3b1;
+	height: 20%;
+}
+
+#pending:hover, input.tweet-input:hover {
+	background: #cbcbcb;
+/*	-webkit-box-shadow: 0 8px 16px -6px #4d4d4d;
+	   -moz-box-shadow: 0 8px 16px -6px #4d4d4d;
+	        box-shadow: 0 8px 16px -6px #4d4d4d;*/
+}
+
+#pending:active, input.tweet-input:active {
+	background: #cbcbcb;	
+   -moz-box-shadow:    inset 0 0 18px #7e7e7e;
+   -webkit-box-shadow: inset 0 0 18px #7e7e7e;
+   box-shadow:         inset 0 0 18px #7e7e7e;
+}
+
+#tweets {
+	width: 100%;
+	margin: 22px auto;
+	position: relative;
+}
+
+.tweet {
+	min-height: 15px;
+	width: 100%;
+}
+
+article {
+	padding: 22px 11px;
+	position: relative;
+}
+
+article:nth-child(even) {
+	background: #cecece;
+}
+
+span.tweet_time {
+	font-size: .65em;
+	margin-top: 5px;
+	color: gray;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #2b2b2a;
+}
+
+a:hover {
+	text-decoration: underline;
+}
